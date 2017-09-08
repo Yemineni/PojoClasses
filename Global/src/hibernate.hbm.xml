@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="com.language.M_LANGUAGE" table="MASTERS.M_EMPLOYEE">
+ <composite-id>
+<key-property  name="COMPANY_CODE" column="COMPANY_CODE"  />
+<key-property name="LANG_CODE" column="LANG_CODE"/>
+</composite-id>
+<property name="LANG_DESCR" column="LANG_DESCR" />
+<property name="CREATION_DATE" column="CREATION_DATE" />
+<property name="USER_ID"/>
+<property name="MACHINE_ID"/>
+</class>
+</hibernate-mapping>
