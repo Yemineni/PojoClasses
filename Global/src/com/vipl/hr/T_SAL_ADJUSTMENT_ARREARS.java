@@ -23,7 +23,6 @@ public class T_SAL_ADJUSTMENT_ARREARS implements Serializable {
 	@Column float  MASTER_ENT_AMT=0.0f;  
 	@Column String MACHINE_ID="";
 	
-	
 	public String getCOMPANY_CODE() {
 		return COMPANY_CODE;
 	}
