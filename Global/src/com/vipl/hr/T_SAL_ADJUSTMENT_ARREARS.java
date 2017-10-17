@@ -21,9 +21,8 @@ public class T_SAL_ADJUSTMENT_ARREARS implements Serializable {
 	@Column String  CREATION_DATE="";          
 	@Column String  USER_ID="";  
 	@Column float  MASTER_ENT_AMT=0.0f;  
-	@Column String MACHINE_ID="";   
-	
-
+	@Column String MACHINE_ID=""; 
+	Syste
 	
 	
 	

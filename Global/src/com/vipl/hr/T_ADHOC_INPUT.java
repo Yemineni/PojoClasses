@@ -37,6 +37,8 @@ public class T_ADHOC_INPUT implements Serializable {
 		USER_ID = uSER_ID;
 		MACHINE_ID = mACHINE_ID;
 	}
+	
+	lkjsadkjfkjds
 
 	@Id String COMPANY_CODE="";    
 	@Column String EMP_CODE="";    
