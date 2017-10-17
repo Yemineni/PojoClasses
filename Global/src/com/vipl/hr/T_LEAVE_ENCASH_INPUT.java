@@ -5,10 +5,12 @@ import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.IdClass;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="hr.t_leave_encash_input")
+@IdClass(T_LEAVE_ENCASH_INPUT_pk.class)
 
 public class T_LEAVE_ENCASH_INPUT implements Serializable  {
 

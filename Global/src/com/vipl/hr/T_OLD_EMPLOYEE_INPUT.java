@@ -1,15 +1,13 @@
 package com.vipl.hr;
-
 import javax.persistence.Column;
-
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Entity
+@Table(name="HR.T_OLD_EMPLOYEE_INPUT")
 public class T_OLD_EMPLOYEE_INPUT {
-
-	public T_OLD_EMPLOYEE_INPUT() {
-		// TODO Auto-generated constructor stub
-		}
-	
-	
-	@Column String COMPANY_CODE="";      
+	public T_OLD_EMPLOYEE_INPUT() {}
+	@Id String COMPANY_CODE="";      
 	@Column String SAL_MONTH="";               
 	@Column String DIV_CODE="";         
 	@Column String SUBDIV_CODE="";     
@@ -362,12 +360,5 @@ public class T_OLD_EMPLOYEE_INPUT {
 		USER_ID = uSER_ID;
 		CREATION_DATE = cREATION_DATE;
 	}
-	
-	
-	
-	
-	
-	
-	
 
 }
